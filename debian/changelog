@@ -1,0 +1,110 @@
+pari-elldata (0.20210301-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added: debian/upstream/signing-key.asc
+  * debian/control:
+    - Bump Standards-Version to 4.6.0
+    - Build-Depends on debhelper-compat (= 13)
+    - Add Rules-Requires-Root: no
+    - Remove outdated Replaces: pari-extra (<= 2.1-1)
+    - Add Homepage: https://pari.math.u-bordeaux.fr/packages.html#elldata
+  * debian/compat: removed
+  * debian/rules: add missing targets. Closes: #999032
+
+ -- Bill Allombert <ballombe@debian.org>  Sun, 14 Nov 2021 19:04:48 +0100
+
+pari-elldata (0.20190911-1) unstable; urgency=medium
+
+  * New upstream release (all conductors less than 500000)
+  * Move to debhelper 9
+  * debian/control:
+    - Bump Standards-Version to 4.4.0
+    - Set Multi-Arch: foreign
+
+ -- Bill Allombert <ballombe@debian.org>  Thu, 12 Sep 2019 15:02:28 +0200
+
+pari-elldata (0.20161017-1) unstable; urgency=low
+
+  * New upstream release (all conductors less than 400000)
+
+ -- Bill Allombert <ballombe@debian.org>  Mon, 17 Oct 2016 20:59:55 +0200
+
+pari-elldata (0.20160211-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 380000)
+  * Bump Standards-Version to 3.9.7.
+
+ -- Bill Allombert <ballombe@debian.org>  Mon, 15 Feb 2016 10:56:49 +0100
+
+pari-elldata (0.20150519-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 360000)
+  * Bump Standards-Version to 3.9.6.
+
+ -- Bill Allombert <ballombe@debian.org>  Wed, 20 May 2015 10:16:34 +0200
+
+pari-elldata (0.20140908-1) unstable; urgency=low
+
+  * New upstream release:
+    - add missing curves in the ranges 246400-246499 and 252800-252899.
+
+ -- Bill Allombert <ballombe@debian.org>  Tue, 09 Sep 2014 11:49:32 +0200
+
+pari-elldata (0.20140512-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 350000)
+
+ -- Bill Allombert <ballombe@debian.org>  Mon, 12 May 2014 17:36:59 +0200
+
+pari-elldata (0.20140325-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 340000)
+
+ -- Bill Allombert <ballombe@debian.org>  Sun, 30 Mar 2014 20:40:10 +0200
+
+pari-elldata (0.20131231-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 320000)
+  * Bump Standards-Version to 3.9.5.
+
+ -- Bill Allombert <ballombe@debian.org>  Mon, 13 Jan 2014 17:02:50 +0100
+
+pari-elldata (0.20121022-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 300000)
+  * Compress files to reduce installed size.
+
+ -- Bill Allombert <ballombe@debian.org>  Sun, 05 May 2013 16:45:15 +0200
+
+pari-elldata (0.20120415-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 230000)
+   - Beware that the numbering of curves in a small number of isogenies classes
+     has changed.
+  * Bump Standards-Version to 3.9.3.
+
+ -- Bill Allombert <ballombe@debian.org>  Sun, 15 Apr 2012 17:25:05 +0200
+
+pari-elldata (0.20120131-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 220000)
+    - fix generators for conductors between 130000 and 139999
+
+ -- Bill Allombert <ballombe@debian.org>  Tue, 31 Jan 2012 23:53:16 +0100
+
+pari-elldata (0.20111104-1) unstable; urgency=low
+
+  * New upstream release (all conductor less than 200000).
+
+ -- Bill Allombert <ballombe@debian.org>  Wed, 16 Nov 2011 12:06:45 +0100
+
+pari-elldata (0.20110726-1) unstable; urgency=low
+
+  * Initial Release.
+  * Replaces obsolete pari-extra package.
+
+ -- Bill Allombert <ballombe@debian.org>  Tue, 26 Jul 2011 19:18:56 +0200
+
+Local variables:
+mode: debian-changelog
+End:
